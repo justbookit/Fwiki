@@ -159,7 +159,7 @@
   width: 150px;
   border-radius: 50%;
   object-fit: contain;
-  background-color: lightgray;
+  background-color: #d3d3d39e;
 }
 
 .our-advantages-container {
@@ -188,10 +188,9 @@
 }
 
 .revenue-streams-picture {
-  width: 435px;
-  height: 235px;
+  width: 256px;
+  height: 256px;
   border-radius: 10px;
-  box-shadow: 7px 7px 19px -4px rgba(153,153,153,1);
 }
 
 .revenue-streams-text {

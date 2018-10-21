@@ -9,7 +9,7 @@ import cfr from "./cfr.png";
 import mersulTrenurilor from "./mersulTrenurilor.png";
 import softrans from "./softrans.png";
 import metrics from "./metrics.jpg";
-import revenueStreams from "./socialmediametrics.jpg";
+import revenueStreams from "./revenueStreams.png";
 
 import './App.css';
 
@@ -92,15 +92,15 @@ class App extends Component {
             <div className="section-content">
               <p>Our solution aims to offer a web platform where students can book free train tickets,
                 eliminating the frustrating waiting at the railway stations' ticket offices. Also,
-                we want to reduce significaty the time that they spend to purchase a train ticket.
+                we want to significantly reduce the time that they spend to purchase a train ticket.
                 Our raw functionalities include the following:
               </p>
 
               <div className="solutions-container">
                 <div className="solution-content">
                   <i className="fas fa-users"></i>
-                  <label className="solution-label">allowing users to create an account and register their personal data in order to be able
-                    to reserved tickets in only few minutes</label>
+                  <label className="solution-label">allowing users to create an account and register their personal data in order
+                    to reserve tickets in only few minutes</label>
                 </div>
 
                 <div className="solution-content">
@@ -111,7 +111,7 @@ class App extends Component {
 
                 <div className="solution-content">
                   <i className="fas fa-ticket-alt"></i>
-                  <label className="solution-label">receive instant an email or a sms with the purchased ticket</label>
+                  <label className="solution-label">instantly receive an email or a sms with the purchased ticket</label>
                 </div>
               </div>
 
@@ -129,7 +129,7 @@ class App extends Component {
               <img className="customer-picture" src={studentPicture} alt=""/>
               <div className="section-content">
                 <p>
-                  The main customers segment that we targeting are students. We want to offer them the
+                  The main customers segment that we are targeting are students. We want to offer them the
                   possibility to purchase a train ticket in just few clicks. 
                   So, for the moment, the ones who will benefit from our services will be them, due to
                   the fact that they do not have access to an online platform that allows them to book
@@ -188,8 +188,8 @@ class App extends Component {
             <div className="our-advantages-container">
               <p></p>
               <p>Analyzing the aforementioned 'Softrans' example, it is common that many people would book seats
-                and proceed to not showing up when the train is set to leave. We took in consideration a 
-                for people who are practicing this non-ethical activity, by stopping the user in cause to use our
+                and proceed to not showing up when the train is set to leave. We took in consideration the 
+                people who are practicing this non-ethical activity, by stopping the user in cause to use our
                 platform, unless a small compensation is paid. Of course, if the user cancels the reservation
                 before in due time, the penalty will not pe applied. The train personnel will send us a list of
                 people who travelled in every train in order to see which reservation were truly honored.
@@ -200,7 +200,7 @@ class App extends Component {
               </p>
 
               <p>The main goal of our application is to reduce the time spent by the students when they want
-                to purchase a train tickets. So the main advantage of our application is that they can use it
+                to purchase a train ticket. So the main advantage of our application is that they can use it
                 to book train tickets with discount in just few minutes.
               </p>
 
@@ -224,8 +224,8 @@ class App extends Component {
                 <p className="p-custom">We expect a very high number of users at a weekly basis, so the main
                   metric we will use for analyzing the behaviour of our application is this number.
                   Knowing it, we will be able to manage our resources in order to offer a robust application
-                  and avoid upsetting our customers. Due to the fact that students tend to travel in the
-                  weekend more, we can shrink the interval only to Friday, Saturday and Sunday.
+                  and avoid upsetting our customers. Due to the fact that students tend to travel more in the
+                  weekend, we can shrink the interval only to Friday, Saturday and Sunday.
                 </p>
               </div>
               <div><img className="metrics-picture" src={metrics} alt=""/></div>
@@ -239,7 +239,7 @@ class App extends Component {
           <div className="gray-container size-16 gray">
             <label className="size-30 bold-text">Revenue streams</label>
             <div className="customer-body">
-              <img className="revenue-streams-picture" src={revenueStreams} alt=""/>
+              <div><img className="revenue-streams-picture" src={revenueStreams} alt=""/></div>
               <div className="customer-content revenue-streams-text">
                 <p>
                   We will charge the benefiting companies by gaining a small percentage of their incomes.
