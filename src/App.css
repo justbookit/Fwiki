@@ -7,7 +7,7 @@
   position: relative;
   height: 1000px;
   margin-top: -250px;
-  background-image: url("wallpaper.jpg");
+  background-image: url("./images/wallpaper.jpg");
   background-size: cover;
 }
 
@@ -185,6 +185,11 @@
     width: 350px;
     border-radius: 50%;
     box-shadow: 7px 7px 19px -4px rgba(153,153,153,1);
+}
+
+.costs-container {
+  display: flex;
+  padding-top: 25px;
 }
 
 .revenue-streams-picture {

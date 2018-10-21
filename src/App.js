@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import AncaPicture from "./Anca.jpg";
-import RaduPicture from "./Radu.jpg";
-import CatalinPicture from "./Catalin.jpg";
-import DanielPicture from "./Daniel.jpg";
-import PaulPicture from "./Paul.jpg";
-import studentPicture from "./student.png";
-import cfr from "./cfr.png";
-import mersulTrenurilor from "./mersulTrenurilor.png";
-import softrans from "./softrans.png";
-import metrics from "./metrics.jpg";
-import revenueStreams from "./revenueStreams.png";
+
+import AncaPicture from "./team/Anca.jpg";
+import RaduPicture from "./team/Radu.jpg";
+import CatalinPicture from "./team/Catalin.jpg";
+import DanielPicture from "./team/Daniel.jpg";
+import PaulPicture from "./team/Paul.jpg";
+
+import cfr from "./competitors/cfr.png";
+import mersulTrenurilor from "./competitors/mersulTrenurilor.png";
+import softrans from "./competitors/softrans.png";
+
+import student from "./images/student.png";
+import metrics from "./images/metrics.jpg";
+import revenue from "./images/revenue.png";
 
 import './App.css';
 
@@ -70,12 +73,12 @@ class App extends Component {
             <div className="section-content">
               <p>Nowadays, a very frequent problem that many students from our country are dealing with at a weekly basis
                 is the problem of purchasing free train tickets. At first glance, the process seems to be simple. 
-                The only thing they have to do is to go to a railway station' ticket office, to show the id card and
+                The only thing they have to do is to go to a ticket office in a railway station, to show the id card and
                 the student id received from their university which proves that they are enrolled in the current year
                 at a university and they should be good to go.
               </p>
 
-              <p>The real problem is the endless queues that form at the railway stations' ticket offices. In average a student
+              <p>The real problem is the endless queues that form at the ticket offices in the railway stations. In average a student
                 must wait at least 30 minutes in order to receive a ticket, which is very unpleasant, especially when they
                 find themselves in a hurry.
               </p>
@@ -91,8 +94,8 @@ class App extends Component {
             <label className="size-30 bold-text">Solution</label>
             <div className="section-content">
               <p>Our solution aims to offer a web platform where students can book free train tickets,
-                eliminating the frustrating waiting at the railway stations' ticket offices. Also,
-                we want to significantly reduce the time that they spend to purchase a train ticket.
+                eliminating the frustrating waiting at ticket offices. Also, we want to significantly
+                reduce the time that they spend to purchase a train ticket.
                 Our raw functionalities include the following:
               </p>
 
@@ -126,7 +129,7 @@ class App extends Component {
           <div className="blue-container size-16 white">
             <div className="section-title"><label className="size-30 bold-text">Customer segments</label></div>
             <div className="customer-body">
-              <img className="customer-picture" src={studentPicture} alt=""/>
+              <img className="customer-picture" src={student} alt=""/>
               <div className="section-content">
                 <p>
                   The main customers segment that we are targeting are students. We want to offer them the
@@ -155,7 +158,7 @@ class App extends Component {
                   the routes found for the selected source and destination
                 </p>
                 <p>It offers information about the prices for all categories</p>
-                <p>To purchase, it redirects you to the selected company website
+                <p>To purchase, it redirects the user to the selected company website
                   where the customer can perform a reservation
                 </p>
               </div>
@@ -191,7 +194,7 @@ class App extends Component {
                 and proceed to not showing up when the train is set to leave. We took in consideration the 
                 people who are practicing this non-ethical activity, by stopping the user in cause to use our
                 platform, unless a small compensation is paid. Of course, if the user cancels the reservation
-                before in due time, the penalty will not pe applied. The train personnel will send us a list of
+                before in due time, the penalty will not be applied. The train personnel will send us a list of
                 people who travelled in every train in order to see which reservation were truly honored.
               </p>
 
@@ -211,7 +214,7 @@ class App extends Component {
               </p>
 
               <p>Altough 'Mersul trenurilor' provides a great variaty of routes, it does not provide an option to
-                make a reserveration for any of this routes. Our platform has access to each train company database
+                make a reservation for any of this routes. Our platform has access to each train company database
                 that has routes on our site, therefore we can perform a reservation directly on our site.
               </p>
             </div>
@@ -234,19 +237,33 @@ class App extends Component {
 
           <div className="gray-container size-16 gray">
             <div className="section-title"><label className="size-30 bold-text white">Cost structure</label></div>
+            <div className="section-content costs-container">
+              <p>Equipament: $10.000</p>
+              <p>Incorporation fees: $1.000</p>
+              <p>Marketing: $10.000</p>
+              <p>Office furniture: $2.500</p>
+              <p>Utilities: $300/month</p>
+              <p>Office space: $750/month</p>
+              <p>Website: $100/month</p>
+              <p>Salaries: $6.250/month</p>
+              <p>Insurance: $1.200/year</p>
+              <p><b>Founding costs: $23.500</b></p>
+              <p><b>TOTAL: $90.000/year</b></p>
+            </div>
           </div>
 
           <div className="gray-container size-16 gray">
             <label className="size-30 bold-text">Revenue streams</label>
             <div className="customer-body">
-              <div><img className="revenue-streams-picture" src={revenueStreams} alt=""/></div>
+              <div><img className="revenue-streams-picture" src={revenue} alt=""/></div>
               <div className="customer-content revenue-streams-text">
                 <p>
                   We will charge the benefiting companies by gaining a small percentage of their incomes.
                 </p>
                 <p>
-                  Also, any train company that wants to give its student customers to posibility to make
-                  online reservation must pay in order to integrate our services.
+                  Regarding the fact that students can book free tickets, we will charge the same percentage
+                  but from the actual ticket price, the one before the discount. The same logic applies for
+                  all types of discounts.
                 </p>
               </div>
             </div>
