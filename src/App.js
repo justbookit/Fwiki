@@ -78,7 +78,7 @@ class App extends Component {
                 at a university and they should be good to go.
               </p>
 
-              <p>The real problem is the endless queues that form at the ticket offices in the railway stations. In average a student
+              <p>The real problem is the endless queues that form at the ticket offices from the railway stations. In average a student
                 must wait at least 30 minutes in order to receive a ticket, which is very unpleasant, especially when they
                 find themselves in a hurry.
               </p>
