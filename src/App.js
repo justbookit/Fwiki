@@ -257,14 +257,16 @@ class App extends Component {
             <div className="customer-body">
               <div><img className="revenue-streams-picture" src={revenue} alt=""/></div>
               <div className="customer-content revenue-streams-text">
-                <p>
-                  We will charge the benefiting companies by gaining a small percentage of their incomes.
-                </p>
-                <p>
-                  Regarding the fact that students can book free tickets, we will charge the same percentage
-                  but from the actual ticket price, the one before the discount. The same logic applies for
-                  all types of discounts.
-                </p>
+                <div className="custom-p">
+                  <p>
+                    We will charge the benefiting companies by gaining a small percentage of their incomes.
+                  </p>
+                  <p>
+                    Regarding the fact that students can book free tickets, we will charge the same percentage
+                    but from the actual ticket price, the one before the discount. The same logic applies for
+                    all types of discounts.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
