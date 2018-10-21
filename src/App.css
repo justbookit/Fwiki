@@ -1,7 +1,6 @@
 .app-container {
   height: 100%;
   width: 100%;
-  background-color: gray;
 }
 
 .app-header {
@@ -12,23 +11,22 @@
   background-size: cover;
 }
 
-.app-body {
-  height: 100%;
-  width: 100%;
-  background-color: indianred;
-}
-
-.title-container {
+.app-title {
   position: absolute;
-  margin-top: 610px;
   width: 40%;
   padding: 15px;
   text-align: center;
   background-color: #282c34a8;
+  margin: auto;
+  margin-top: 610px;
+  margin-bottom: 250px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .team-container {
-  height: 350px;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 100px;
@@ -39,9 +37,9 @@
 
 .team-members {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .team-member {
@@ -50,8 +48,9 @@
   height: 250px;
   width: 250px;
   padding-top: 10px;
-  background-color: #ffffff7d;
   border-radius: 10px;
+  box-shadow: 7px 7px 19px -4px rgba(153,153,153,1);
+  background-color: #ffffff7d;
 }
 
 .team-member-name {
@@ -70,8 +69,13 @@
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background-color: gray;
   object-fit: cover;
+}
+
+.blue-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #009688f5; /*#212a57*/
 }
 
 .section-title {
@@ -81,40 +85,38 @@
   background-color: #282c34a8;
 }
 
-.section-body {
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 25px;
+.section-content {
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: left;
 }
 
-.problem-container {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: #009688f5; /*#212a57*/
+.solutions-container {
+  text-align: left;
 }
 
-.solution-container {
-  height: 350px;
-  padding-top: 25px;
+.gray-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #ebebe4;
   text-align: center;
 }
 
-.solution-content {
+.solution-label {
   padding-left: 10px;
 }
 
-.solution-p {
-  padding-top: 30px;
+.solution-content {
+  padding-bottom: 10px;
 }
 
-.options-container {
-  text-align: left;
-  padding-left: 20px;
+.customer-picture {
+  height: 200px;
+  width: 200px;
 }
 
 .customer-body {
-    height: 256px;
+    height: 235px;
     padding-left: 200px;
     padding-right: 100px;
     padding-top: 25px;
@@ -123,15 +125,78 @@
 
 .customer-content {
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 50px;
   display: table;
-  height: 100%;
+  height: 200px;
 }
 
-.customer-p {
+.custom-p {
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
+}
+
+.competitors-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.competitor-container {
+  width: 30%;
+  background-color: whitesmoke;
+  border-top: 6px solid darkorange;
+  border-radius: 10px;
+  box-shadow: 7px 7px 19px -4px rgba(153,153,153,1);
+  padding: 15px;
+}
+
+.competitor-logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: lightgray;
+}
+
+.our-advantages-container {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 25px;
+  border-top: 4px solid darkorange;
+  text-align: left;
+}
+
+.metrics-container {
+  display: flex;
+}
+
+.metrics-content {
+  padding-right: 100px;
+  display: table;
+  height: 200px;
+}
+
+.metrics-picture {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 19px -4px rgba(153,153,153,1);
+}
+
+.revenue-streams-picture {
+  width: 435px;
+  height: 235px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 19px -4px rgba(153,153,153,1);
+}
+
+.revenue-streams-text {
+  text-align: left;
+  padding-left: 50px;
 }
 
 .size-16 {
