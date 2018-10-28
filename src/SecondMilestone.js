@@ -10,10 +10,10 @@ export default class SecondMilestone extends Component {
                 <div className="blue-container size-16 white">
                     <div className="section-title"><label className="size-30 bold-text">How we identified the problem</label></div>
                     <div className="section-content">
-                        <p>We use frequently the services offered by the railway companies. The train is our choice when we decide to go
-                        home or in a trip. As students we benefite by a discount, and the only way to use it is to purchase tickets
+                        <p>We frequently use the services offered by the railway companies. The train is our choice when we decide to go
+                        home or in a trip. As students we are given a discount, and the only way to use it is to purchase tickets
                         from a railway tickets office.
-                        We face the problem mentioned in previous paragraph when we want to use CFR’s services. When purchasing tickets,
+                        We face the problem mentioned in the previous paragraph when we want to use CFR’s services. When purchasing tickets,
                         it is always crowded and people, in general, tend to blame the students for this problem because they can purchase
                         tickets for free.
                         </p>
@@ -88,7 +88,9 @@ export default class SecondMilestone extends Component {
 
                         <p>Until now, we discussed about the idea, if it resolves an actual problem that many people face with it
                         and the answers of interviewed people was positive.
-                        So, we think that we are ready to move to the Customer Validation stage to discover if the potential
+                        </p>
+
+                        <p>So, we think that we are ready to move to the Customer Validation stage to discover if the potential
                         customers consider that our application is useful and to see if they want to support our idea.
                         We contacted some potential customers, we received a positive feedback but we need more than one to decide
                         if our idea can be validated or not. We will continue to contact the potential customers, to obtain more
