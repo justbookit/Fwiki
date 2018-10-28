@@ -1,31 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "8896f9bb6a5a0506573fef60b5b4af6b",
-    "url": "/Fwiki/static/media/Catalin.8896f9bb.jpg"
+    "revision": "bab1d424b4bd70924dc63234cb0ca940",
+    "url": "/Fwiki/static/media/Radu.bab1d424.jpg"
   },
   {
-    "revision": "a29d29aaa7f1f92f6830",
-    "url": "/Fwiki/static/css/main.be646aa8.chunk.css"
+    "revision": "da60eb373460dd84996a",
+    "url": "/Fwiki/static/css/main.aeac155f.chunk.css"
   },
   {
-    "revision": "bd4d612d329fad2a337b",
-    "url": "/Fwiki/static/js/1.bd4d612d.chunk.js"
+    "revision": "8ba374cf9704132342d1",
+    "url": "/Fwiki/static/js/1.8ba374cf.chunk.js"
   },
   {
     "revision": "169a867670516563185c",
     "url": "/Fwiki/static/js/runtime~main.169a8676.js"
   },
   {
+    "revision": "8df0521add6813427dd0421cddd4f59a",
+    "url": "/Fwiki/static/media/wallpaper.8df0521a.jpg"
+  },
+  {
     "revision": "360967812ccae14ba70b971f74784aa8",
     "url": "/Fwiki/static/media/Anca.36096781.jpg"
   },
   {
-    "revision": "bab1d424b4bd70924dc63234cb0ca940",
-    "url": "/Fwiki/static/media/Radu.bab1d424.jpg"
+    "revision": "da60eb373460dd84996a",
+    "url": "/Fwiki/static/js/main.da60eb37.chunk.js"
   },
   {
-    "revision": "a29d29aaa7f1f92f6830",
-    "url": "/Fwiki/static/js/main.a29d29aa.chunk.js"
+    "revision": "8896f9bb6a5a0506573fef60b5b4af6b",
+    "url": "/Fwiki/static/media/Catalin.8896f9bb.jpg"
   },
   {
     "revision": "7852f67de128e1d702a4eff6d68c4c27",
@@ -44,11 +48,7 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/revenue.86fca744.png"
   },
   {
-    "revision": "8df0521add6813427dd0421cddd4f59a",
-    "url": "/Fwiki/static/media/wallpaper.8df0521a.jpg"
-  },
-  {
-    "revision": "c0c43847970bbcc7e57da44278d1d4f8",
+    "revision": "2de33d04c6fdedff69ff225de68107a4",
     "url": "/Fwiki/index.html"
   }
 ];
