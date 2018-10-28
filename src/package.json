@@ -2,7 +2,7 @@
   "name": "justbookit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AncaStan.github.io/justBookIt/",
+  "homepage": "https://justbookit.github.io/Fwiki/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",

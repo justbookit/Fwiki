@@ -26,6 +26,21 @@
   bottom: 0;
 }
 
+.app-navbar {
+  height: 50px;
+  background-color: #600b13d9;
+  margin-top: 250px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .team-container {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -148,7 +163,7 @@
 .competitor-container {
   width: 30%;
   background-color: whitesmoke;
-  border-top: 6px solid darkorange;
+  border-top: 6px solid darkgray;
   border-radius: 10px;
   box-shadow: 7px 7px 19px -4px rgba(153,153,153,1);
   padding: 15px;
@@ -166,7 +181,7 @@
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 25px;
-  border-top: 4px solid darkorange;
+  border-top: 4px solid darkgray;
   text-align: left;
 }
 
@@ -203,12 +218,47 @@
   padding-left: 50px;
 }
 
+.circle {
+  height: 120px;
+  width: 120px;
+  background: whitesmoke;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 10px;
+  position: absolute;
+  vertical-align: middle;
+  line-height: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-container {
+  background: #282c34a8;
+  padding: 15px;
+  text-align: center;
+}
+
+.milestone-container {
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background: #ff694c;
+}
+
 .size-16 {
   font-size: 16px;
 }
 
+.size-20 {
+  font-size: 20px;
+}
+
 .size-30 {
   font-size: 30px;
+}
+
+.size-35 {
+  font-size: 35px;
 }
 
 .size-75 {
