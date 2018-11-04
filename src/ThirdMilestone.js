@@ -35,7 +35,7 @@ export default class ThirdMilestone extends Component {
                             }
                         </div>
 
-                        <p className="blue"><b>To open am wireframe click on it!</b></p>
+                        <p className="blue"><b>To open an wireframe click on it!</b></p>
 
                         <p>
                             Before any booking, the user must search for a route by the cities between which he wants to travel and also he must chose a departure time. After this step a list with trains will be displayed and the user must chose on which he wants to book a ticket.
