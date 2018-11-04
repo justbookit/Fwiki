@@ -96,7 +96,7 @@ export default class LandingPage extends Component {
 
                                 <p>
                                     Easy, fast and safe. You can buy or reserve a ticket from home or any other place in
-                                    just a few minutes. The only thing that you should to do is to select the destination,
+                                    just a few minutes. The only thing that you should do is to select the destination,
                                     the date and the hour.
                                 </p>
 
