@@ -3,15 +3,39 @@ import React, { Component } from 'react';
 import FikiHeader from "./FikiHeader";
 import FirstMilestone from "./FirstMilestone";
 import SecondMilestone from "./SecondMilestone";
+
+
 import './App.css';
+import ThirdMilestone from "./ThirdMilestone";
 
 class App extends Component {
+
+    constructor () {
+        super();
+
+        this.state = {
+            enlargeImage: false,
+            selectedImage: null
+        }
+    }
+
 	render() {
     	return (
     		<div className="app-container">
+
+                {
+                    this.state.enlargeImage &&
+
+                    <div className="enlargedImageContainer">
+                        <button className="closeEnlargedImage bold-text size-30" onClick={() => this.setState({enlargeImage: false})}>X</button>
+                        <img src={this.state.selectedImage} className="enlargedImage"/>
+                    </div>
+                }
+
 				<FikiHeader/>
         		<FirstMilestone/>
         		<SecondMilestone/>
+				<ThirdMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
       		</div>
     	);
   	}

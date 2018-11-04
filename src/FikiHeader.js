@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { browserHistory } from "react-router";
+import { browserHistory, hashHistory } from "react-router";
 
 export default class FikiHeader extends Component {
 
     handleClick() {
-        browserHistory.push({pathname: "/landing-page"});
+        hashHistory.push({pathname: "/landing-page"});
     }
     
     render() {
