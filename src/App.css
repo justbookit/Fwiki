@@ -273,6 +273,14 @@ a {
   cursor: pointer;
 }
 
+.transparent-layer {
+    background-color: blue;
+}
+
+.transparent-layer:hover {
+    background-color: gray;
+}
+
 .enlargedImageContainer {
   position: fixed;
   width: 100%;
@@ -293,14 +301,21 @@ a {
 }
 
 .closeEnlargedImage {
-  border: 10px solid white;
-  border-radius: 25%;
+  border: none;
+  outline: none;
   position: absolute;
   right: 20px;
   top: 20px;
   background-color: #333333;
   color: white;
   cursor: pointer;
+}
+
+.wireframes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .wireframe-image-cointainer {
@@ -350,4 +365,8 @@ a {
 
 .gray {
   color: #333333;
+}
+
+.blue {
+  color: #3bf4ff;
 }

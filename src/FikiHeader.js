@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { browserHistory, hashHistory } from "react-router";
+import { hashHistory } from "react-router";
 
 export default class FikiHeader extends Component {
 

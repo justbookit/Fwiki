@@ -98,8 +98,6 @@ export default class SecondMilestone extends Component {
                         </p>
                     </div>
                 </div>
-
-                <div className="gray-container"></div>
             </div>
         );
     }

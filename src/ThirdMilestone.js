@@ -14,28 +14,28 @@ export default class ThirdMilestone extends Component {
 
                 <div className="blue-container size-16 white">
                     <div className="section-title"><label className="size-30 bold-text">Wireframe</label></div>
-                    <div className="customer-body">
-                        <div className="metrics-content">
+                    <div className="section-content">
+                        <div className="wireframes-container">
+                            {
+                                [
+                                    [register, "Register"],
+                                    [login, "Login"],
+                                    [fastBooking, "Fast booking"],
+                                    [pickTrain, "Search for train"]
+                                ].map((image) => {
+                                    return (
+                                        <div className="wireframe-image-cointainer" key={image[0]}>
+                                            <div className="transparent-layer">
+                                                <img className="wireframe-image" src={image[0]} onClick={() => this.props.enlargeImage(image[0])} alt=""/>
+                                            </div>
+                                            <p className="imageLabel"><b>{image[1]}</b></p>
+                                        </div>
+                                    )
+                                })
+                            }
                         </div>
 
-                        {
-                            [
-                                [register, "Register"],
-                                [login, "Login"],
-                                [fastBooking, "Fast Booking"],
-                                [pickTrain, "Search for train"]
-                            ].map((image) => {
-                                return (
-                                    <div className="wireframe-image-cointainer" key={image[0]}>
-                                        <img src={image[0]} className="wireframe-image" onClick={() => this.props.enlargeImage(image[0])}/>
-                                        <p className="imageLabel">{image[1]}</p>
-                                    </div>
-                                )
-                            })
-                        }
-
-                    </div>
-                    <div style={{marginLeft: "200px", marginRight: "100px", marginTop: "100px"}}>
+                        <p className="blue"><b>To open am wireframe click on it!</b></p>
 
                         <p>
                             Before any booking, the user must search for a route by the cities between which he wants to travel and also he must chose a departure time. After this step a list with trains will be displayed and the user must chose on which he wants to book a ticket.

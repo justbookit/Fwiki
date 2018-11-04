@@ -27,7 +27,9 @@ class App extends Component {
                     this.state.enlargeImage &&
 
                     <div className="enlargedImageContainer">
-                        <button className="closeEnlargedImage bold-text size-30" onClick={() => this.setState({enlargeImage: false})}>X</button>
+                        <button className="closeEnlargedImage bold-text size-30" onClick={() => this.setState({enlargeImage: false})}>
+                            <i className="far fa-times-circle"></i>
+                        </button>
                         <img src={this.state.selectedImage} className="enlargedImage"/>
                     </div>
                 }
