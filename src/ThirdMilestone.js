@@ -52,9 +52,6 @@ export default class ThirdMilestone extends Component {
 
                     </div>
                 </div>
-
-                <div className="gray-container">
-                </div>
             </div>
         );
     }

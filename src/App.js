@@ -30,7 +30,7 @@ class App extends Component {
                         <button className="closeEnlargedImage bold-text size-30" onClick={() => this.setState({enlargeImage: false})}>
                             <i className="far fa-times-circle"></i>
                         </button>
-                        <img src={this.state.selectedImage} className="enlargedImage"/>
+                        <img src={this.state.selectedImage} className="enlargedImage" alt=""/>
                     </div>
                 }
 

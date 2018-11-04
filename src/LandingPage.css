@@ -29,14 +29,14 @@
     background-color: #040210;
 }
 
-.about-us {
+.darkblue-container {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 150px;
     padding-right: 150px;
 }
 
-.our-services {
+.lightgray-container {
     background-color: #ebebe4;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -44,9 +44,86 @@
     padding-right: 150px;
 }
 
+.our-services-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-application-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.description-container {
+    width: 600px;
+    height: 300px;
+}
+
+.picture-container {
+    width: 600px;
+    height: 300px;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.email-icon {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.copyright-icon {
+    margin-right: 10px;
+}
+
+.copyright-container {
+    color: #ffffffa3;
+    text-align: center;
+}
+
+.message-container {
+    height: 20px;
+    color: #FF5722;
+}
+
+.text {
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+hr {
+    width: 10%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.motto {
+    margin-top: 50px;
+}
+
 .circles-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 55px;
+}
+
+.circle-container {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .outer-circle {
@@ -55,6 +132,8 @@
     width: 150px;
     border-radius: 50%;
     background-color: #009688;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
 .inner-circle {
@@ -77,8 +156,14 @@
     text-align: center;
 }
 
-.horizontal-line {
+.horizontal-blue-line {
     width: 20%;
-    border-top: 2px solid #009688;
+    border-top: 3px solid #009688;
+    margin-top: 10px;
+}
+
+.horizontal-orange-line {
+    width: 20%;
+    border-top: 3px solid #FF5722;
     margin-top: 10px;
 }

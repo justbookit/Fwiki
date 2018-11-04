@@ -27,7 +27,6 @@
   border-radius: 10px;
   padding: 15px;
   text-align: center;
-  background-color: #282c340d;;
 }
 
 .app-button {
@@ -327,12 +326,20 @@ a {
   text-align: center;
 }
 
+.size-15 {
+    font-size: 15px;
+}
+
 .size-16 {
   font-size: 16px;
 }
 
 .size-20 {
   font-size: 20px;
+}
+
+.size-25 {
+  font-size: 25px;
 }
 
 .size-30 {
