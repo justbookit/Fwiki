@@ -1,0 +1,84 @@
+.landing-page-header {
+    position: relative;
+    height: 1000px;
+    margin-top: -250px;
+    background-image: url("./images/wallpaper.jpg");
+    background-size: cover;
+}
+
+.header-content {
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 610px;
+    margin-bottom: 240px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.title {
+    padding: 15px;
+    background-color: #282c3473;
+    border-radius: 10px;
+}
+
+.landing-page-content {
+    background-color: #040210;
+}
+
+.about-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.our-services {
+    background-color: #ebebe4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.circles-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.outer-circle {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #009688;
+}
+
+.inner-circle {
+    position: absolute;
+    display: inline-table;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    top: 50%;
+    left: 50%;
+    margin: -66px 0px 0px -68px;
+}
+
+.icon {
+    font-size: 50px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.horizontal-line {
+    width: 20%;
+    border-top: 2px solid #009688;
+    margin-top: 10px;
+}

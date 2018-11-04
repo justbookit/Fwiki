@@ -55,7 +55,7 @@ export default class FirstMilestone extends Component {
               
                         <div className="team-member">
                             <div><img className="profile-picture" src={PaulPicture} alt=""/></div>
-                            <label className="team-member-name bold-text">Paul Emiliam Sterpu</label>
+                            <label className="team-member-name bold-text">Paul Emilian Sterpu</label>
                             <label className="team-member-first-role">Business Analyst</label>
                             <label className="team-member-second-role">Frontend Software Developer</label>
                             <label>paulsterpu@gmail.com</label>
