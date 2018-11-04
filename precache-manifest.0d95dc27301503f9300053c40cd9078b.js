@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8e1ac8f3f3903519408511a28331d6e1",
-    "url": "/Fwiki/static/media/Paul.8e1ac8f3.jpg"
+    "revision": "abdcf4857c18ad210e7ceb7eb82d6fe0",
+    "url": "/Fwiki/static/media/metrics.abdcf485.jpg"
   },
   {
-    "revision": "a1aa5c193da9b97fc690",
-    "url": "/Fwiki/static/css/main.f2258b2b.chunk.css"
+    "revision": "1eafa8657b572e0ba8a2",
+    "url": "/Fwiki/static/css/main.bd9190b6.chunk.css"
   },
   {
-    "revision": "3dfab0929ba87f2f1ca4",
-    "url": "/Fwiki/static/js/1.3dfab092.chunk.js"
+    "revision": "affe5d6e7d30953904af",
+    "url": "/Fwiki/static/js/1.affe5d6e.chunk.js"
   },
   {
     "revision": "169a867670516563185c",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/Daniel.7852f67d.jpg"
   },
   {
-    "revision": "a1aa5c193da9b97fc690",
-    "url": "/Fwiki/static/js/main.a1aa5c19.chunk.js"
+    "revision": "8e1ac8f3f3903519408511a28331d6e1",
+    "url": "/Fwiki/static/media/Paul.8e1ac8f3.jpg"
   },
   {
-    "revision": "abdcf4857c18ad210e7ceb7eb82d6fe0",
-    "url": "/Fwiki/static/media/metrics.abdcf485.jpg"
+    "revision": "1eafa8657b572e0ba8a2",
+    "url": "/Fwiki/static/js/main.1eafa865.chunk.js"
   },
   {
     "revision": "86fca744548e9c0100cda32603777a0f",
@@ -60,11 +60,15 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/fastBooking.9d2abcf9.JPG"
   },
   {
+    "revision": "6f7075229474e7db283d24e4e1d5157b",
+    "url": "/Fwiki/static/media/railway.6f707522.jpg"
+  },
+  {
     "revision": "8df0521add6813427dd0421cddd4f59a",
     "url": "/Fwiki/static/media/wallpaper.8df0521a.jpg"
   },
   {
-    "revision": "46f04ae738b29162659669e5bd8e1ba2",
+    "revision": "1078f8122661c3824bbb0299174809c9",
     "url": "/Fwiki/index.html"
   }
 ];
