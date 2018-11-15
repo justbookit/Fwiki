@@ -1,6 +1,9 @@
 import React, { Component } from "react";
+import ReactGA from 'react-ga';
+
 import railway from "./images/railway.jpg";
 import "./LandingPage.css";
+
 
 export default class LandingPage extends Component {
 
@@ -9,11 +12,14 @@ export default class LandingPage extends Component {
 
         this.state = {
             message: ""
-        }
+        };
+
+        ReactGA.initialize('UA-129216949-1');
     }
 
     handleClick() {
         this.setState({...this.state, message: "The application will be available soon!"})
+        ReactGA.ga('send', 'event', 'GetStarted', 'Click');
     }
 
     render() {
