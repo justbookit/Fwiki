@@ -1,6 +1,9 @@
 import React, { Component } from "react";
+import ReactGA from 'react-ga';
+
 import railway from "./images/railway.jpg";
 import "./LandingPage.css";
+
 
 export default class LandingPage extends Component {
 
@@ -10,11 +13,14 @@ export default class LandingPage extends Component {
         this.state = {
             message: "",
             email: ""
-        }
+        };
+
+        ReactGA.initialize('UA-129216949-1');
     }
 
     handleClick() {
         this.setState({...this.state, message: "The application will be available soon!"})
+        ReactGA.ga('send', 'event', 'GetStarted', 'Click');
     }
 
     render() {
@@ -72,7 +78,7 @@ export default class LandingPage extends Component {
                                 <p>Who can use it?</p>
 
                                 <label>
-                                    The application can be used by everybody. You can can reserve or buy tickets even
+                                    The application can be used by everybody. You can reserve or buy tickets even
                                     if you are not students.
                                 </label>
 
