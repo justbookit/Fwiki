@@ -1,9 +1,9 @@
 {
-  "main.css": "/Fwiki/static/css/main.53183bb5.chunk.css",
-  "main.js": "/Fwiki/static/js/main.806a3533.chunk.js",
-  "main.js.map": "/Fwiki/static/js/main.806a3533.chunk.js.map",
-  "static/js/1.e4db4c12.chunk.js": "/Fwiki/static/js/1.e4db4c12.chunk.js",
-  "static/js/1.e4db4c12.chunk.js.map": "/Fwiki/static/js/1.e4db4c12.chunk.js.map",
+  "main.css": "/Fwiki/static/css/main.5f5e6036.chunk.css",
+  "main.js": "/Fwiki/static/js/main.80b14f93.chunk.js",
+  "main.js.map": "/Fwiki/static/js/main.80b14f93.chunk.js.map",
+  "static/js/1.ab3769f9.chunk.js": "/Fwiki/static/js/1.ab3769f9.chunk.js",
+  "static/js/1.ab3769f9.chunk.js.map": "/Fwiki/static/js/1.ab3769f9.chunk.js.map",
   "runtime~main.js": "/Fwiki/static/js/runtime~main.169a8676.js",
   "runtime~main.js.map": "/Fwiki/static/js/runtime~main.169a8676.js.map",
   "static/media/LandingPage.css": "/Fwiki/static/media/wallpaper.8df0521a.jpg",
@@ -19,8 +19,8 @@
   "static/media/fastBooking.JPG": "/Fwiki/static/media/fastBooking.9d2abcf9.JPG",
   "static/media/railway.jpg": "/Fwiki/static/media/railway.6f707522.jpg",
   "static/media/Radu.jpg": "/Fwiki/static/media/Radu.bab1d424.jpg",
-  "static/css/main.53183bb5.chunk.css.map": "/Fwiki/static/css/main.53183bb5.chunk.css.map",
+  "static/css/main.5f5e6036.chunk.css.map": "/Fwiki/static/css/main.5f5e6036.chunk.css.map",
   "index.html": "/Fwiki/index.html",
-  "precache-manifest.dd8636374bcca9d697f39ef468fbdd1f.js": "/Fwiki/precache-manifest.dd8636374bcca9d697f39ef468fbdd1f.js",
+  "precache-manifest.254b8ac3f9394280b943885e8bfb9448.js": "/Fwiki/precache-manifest.254b8ac3f9394280b943885e8bfb9448.js",
   "service-worker.js": "/Fwiki/service-worker.js"
 }
