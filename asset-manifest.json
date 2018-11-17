@@ -1,7 +1,7 @@
 {
-  "main.css": "/Fwiki/static/css/main.d19c5f22.chunk.css",
-  "main.js": "/Fwiki/static/js/main.29d2cf94.chunk.js",
-  "main.js.map": "/Fwiki/static/js/main.29d2cf94.chunk.js.map",
+  "main.css": "/Fwiki/static/css/main.69861301.chunk.css",
+  "main.js": "/Fwiki/static/js/main.40fe970e.chunk.js",
+  "main.js.map": "/Fwiki/static/js/main.40fe970e.chunk.js.map",
   "static/js/1.7d7072db.chunk.js": "/Fwiki/static/js/1.7d7072db.chunk.js",
   "static/js/1.7d7072db.chunk.js.map": "/Fwiki/static/js/1.7d7072db.chunk.js.map",
   "runtime~main.js": "/Fwiki/static/js/runtime~main.169a8676.js",
@@ -19,8 +19,8 @@
   "static/media/pickTrain.JPG": "/Fwiki/static/media/pickTrain.d5ccf0b1.JPG",
   "static/media/fastBooking.JPG": "/Fwiki/static/media/fastBooking.9d2abcf9.JPG",
   "static/media/Anca.jpg": "/Fwiki/static/media/Anca.36096781.jpg",
-  "static/css/main.d19c5f22.chunk.css.map": "/Fwiki/static/css/main.d19c5f22.chunk.css.map",
+  "static/css/main.69861301.chunk.css.map": "/Fwiki/static/css/main.69861301.chunk.css.map",
   "index.html": "/Fwiki/index.html",
-  "precache-manifest.c7eab900345d59bbd3cbd16100a5785a.js": "/Fwiki/precache-manifest.c7eab900345d59bbd3cbd16100a5785a.js",
+  "precache-manifest.eaa362cd93bfb0a3117d48d8c6702a1f.js": "/Fwiki/precache-manifest.eaa362cd93bfb0a3117d48d8c6702a1f.js",
   "service-worker.js": "/Fwiki/service-worker.js"
 }
