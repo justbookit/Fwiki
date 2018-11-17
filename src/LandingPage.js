@@ -3,9 +3,10 @@ import ReactGA from 'react-ga';
 
 import railway from "./images/railway.jpg";
 import "./LandingPage.css";
+import {withRouter} from "react-router-dom";
 
 
-export default class LandingPage extends Component {
+class LandingPage extends Component {
 
     constructor(props) {
         super(props);
@@ -197,3 +198,5 @@ export default class LandingPage extends Component {
         );
     }
 }
+
+export default LandingPage;

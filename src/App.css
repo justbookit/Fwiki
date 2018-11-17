@@ -35,10 +35,24 @@
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 30px;
-  margin-top: 40px;
   text-align: center;
   outline: none;
   cursor: pointer;
+  margin: auto;
+  margin-top: 40px;
+  display: table;
+}
+
+.app-button a {
+  font-size: 20px;
+  margin: 0;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.buttonName {
+  margin: 0;
+
 }
 
 .app-button:hover {

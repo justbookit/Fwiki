@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory} from "react-router";
+import {BrowserRouter, Switch} from 'react-router-dom'
 
-import Fiki from './App';
-import LandingPage from "./LandingPage";
+import App from './App';
 import './index.css';
 
-let routes = (
-    <Router history={hashHistory}>
-        <Route path="/" component={Fiki} />
-        <Route path="/landing-page" component={LandingPage} />
-    </Router>
-);
-
-ReactDOM.render(routes, document.getElementById('root'));
+ReactDOM.render((
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <App/>
+        </BrowserRouter>
+), document.getElementById('root'));

@@ -1,46 +1,22 @@
 import React, { Component } from 'react';
-
-import FikiHeader from "./FikiHeader";
-import FirstMilestone from "./FirstMilestone";
-import SecondMilestone from "./SecondMilestone";
-
-
-import './App.css';
-import ThirdMilestone from "./ThirdMilestone";
+import LandingPage from "./LandingPage";
+import {Route, Switch, withRouter} from "react-router-dom";
+import Fwiki from "./Fwiki";
 
 class App extends Component {
 
-    constructor () {
-        super();
-
-        this.state = {
-            enlargeImage: false,
-            selectedImage: null
-        }
-    }
 
 	render() {
     	return (
     		<div className="app-container">
 
-                {
-                    this.state.enlargeImage &&
-
-                    <div className="enlargedImageContainer">
-                        <button className="closeEnlargedImage bold-text size-30" onClick={() => this.setState({enlargeImage: false})}>
-                            <i className="far fa-times-circle"></i>
-                        </button>
-                        <img src={this.state.selectedImage} className="enlargedImage" alt=""/>
-                    </div>
-                }
-
-				<FikiHeader/>
-        		<FirstMilestone/>
-        		<SecondMilestone/>
-				<ThirdMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
+                <Switch>
+                    <Route exact path="/" component={Fwiki} />
+                    <Route path="/landing-page" component={LandingPage} />
+                </Switch>
       		</div>
     	);
   	}
 }
 
-export default App;
+export default withRouter(App);
