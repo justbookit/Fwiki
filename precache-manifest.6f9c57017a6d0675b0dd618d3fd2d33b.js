@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/metrics.abdcf485.jpg"
   },
   {
-    "revision": "80b14f93d1769fa323ed",
-    "url": "/Fwiki/static/css/main.5f5e6036.chunk.css"
+    "revision": "4e097620cb603ec99f9d",
+    "url": "/Fwiki/static/css/main.53183bb5.chunk.css"
   },
   {
-    "revision": "ab3769f9d64632d9530d",
-    "url": "/Fwiki/static/js/1.ab3769f9.chunk.js"
+    "revision": "371a943c4a0213668295",
+    "url": "/Fwiki/static/js/1.371a943c.chunk.js"
   },
   {
     "revision": "169a867670516563185c",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/Paul.8e1ac8f3.jpg"
   },
   {
-    "revision": "80b14f93d1769fa323ed",
-    "url": "/Fwiki/static/js/main.80b14f93.chunk.js"
+    "revision": "4e097620cb603ec99f9d",
+    "url": "/Fwiki/static/js/main.4e097620.chunk.js"
   },
   {
     "revision": "86fca744548e9c0100cda32603777a0f",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/wallpaper.8df0521a.jpg"
   },
   {
-    "revision": "5af81a1e518ecd44249defde069c3a33",
+    "revision": "fa8fb7b48a9f5706acbe707a475d5ad6",
     "url": "/Fwiki/index.html"
   }
 ];
