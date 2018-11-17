@@ -1,7 +1,7 @@
 {
   "main.css": "/Fwiki/static/css/main.efee2881.chunk.css",
-  "main.js": "/Fwiki/static/js/main.e7331ea1.chunk.js",
-  "main.js.map": "/Fwiki/static/js/main.e7331ea1.chunk.js.map",
+  "main.js": "/Fwiki/static/js/main.f801834a.chunk.js",
+  "main.js.map": "/Fwiki/static/js/main.f801834a.chunk.js.map",
   "static/js/1.85b05ae3.chunk.js": "/Fwiki/static/js/1.85b05ae3.chunk.js",
   "static/js/1.85b05ae3.chunk.js.map": "/Fwiki/static/js/1.85b05ae3.chunk.js.map",
   "runtime~main.js": "/Fwiki/static/js/runtime~main.169a8676.js",
@@ -21,6 +21,6 @@
   "static/media/Anca.jpg": "/Fwiki/static/media/Anca.36096781.jpg",
   "static/css/main.efee2881.chunk.css.map": "/Fwiki/static/css/main.efee2881.chunk.css.map",
   "index.html": "/Fwiki/index.html",
-  "precache-manifest.5dc354d4aa0190a658951afd9ed638a3.js": "/Fwiki/precache-manifest.5dc354d4aa0190a658951afd9ed638a3.js",
+  "precache-manifest.af66a15e36d95e159fd788463330520d.js": "/Fwiki/precache-manifest.af66a15e36d95e159fd788463330520d.js",
   "service-worker.js": "/Fwiki/service-worker.js"
 }
