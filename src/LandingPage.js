@@ -12,7 +12,8 @@ class LandingPage extends Component {
         super(props);
 
         this.state = {
-            message: ""
+            message: "",
+            email: ""
         };
 
         ReactGA.initialize('UA-129216949-1');
@@ -78,7 +79,7 @@ class LandingPage extends Component {
                                 <p>Who can use it?</p>
 
                                 <label>
-                                    The application can be used by everybody. You can can reserve or buy tickets even
+                                    The application can be used by everybody. You can reserve or buy tickets even
                                     if you are not students.
                                 </label>
 
@@ -174,16 +175,18 @@ class LandingPage extends Component {
                     </div>
 
                     <div className="lightgray-container gray">
-                        <label className="bold-text size-30">Get in touch!</label>
+                        <i className="email-icon fas fa-envelope"></i>
+                        <label className="bold-text size-30">Subscribe</label>
                         <div className="horizontal-orange-line"></div>
                         <div>
                             <p className="size-16">
-                                Do you want to find out more? Send us an email and we will come back to you as soon as possible!
+                                Subscribe to our newsletters and stay updated!
                             </p>
-                            <div className="email-container">
-                                <i className="email-icon fas fa-envelope"></i>
-                                <label><b>dssproject2018@gmail.com</b></label>
-                            </div>
+                            <form className="subscribe-container" method="POST" action="https://formspree.io/dssproject2018@gmail.com">
+                                <input className="subscribe-input" value={this.state.email} type="email" name="email" placeholder="Enter your email address"
+                                    onChange={(event) => this.setState({email: event.target.value})}/>
+                                <button className="send-button bold-text white" type="submit" disabled={!(this.state.email !== "")}>Send</button>
+                            </form>
                         </div>
                     </div>
 

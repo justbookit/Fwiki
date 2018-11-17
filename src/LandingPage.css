@@ -72,6 +72,31 @@
     height: 300px;
 }
 
+.subscribe-container {
+    display: flex;
+    height: 35px;
+}
+
+.send-button {
+    height: 35px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid #FF5722;
+    background-color: #FF5722;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.subscribe-input {
+    width: 50%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
 .email-container {
     display: flex;
     align-items: center;
