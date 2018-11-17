@@ -12,7 +12,6 @@ class App extends Component {
 
                 <Switch>
                     <Route exact path="/" component={Fwiki} />
-                    <Route path="/landing-page" component={LandingPage} />
                 </Switch>
       		</div>
     	);
