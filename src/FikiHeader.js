@@ -5,7 +5,7 @@ import ReactGA from 'react-ga';
 export default class FikiHeader extends Component {
 
     handleClick() {
-        window.location.href = "https://paul1596.github.io/justbookit/";
+        window.location.href = "https://justbookit.github.io/landing-page/";
     }
     
     render() {
