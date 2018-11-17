@@ -1,9 +1,9 @@
 {
-  "main.css": "/Fwiki/static/css/main.efee2881.chunk.css",
-  "main.js": "/Fwiki/static/js/main.f260ec29.chunk.js",
-  "main.js.map": "/Fwiki/static/js/main.f260ec29.chunk.js.map",
-  "static/js/1.0fc07f72.chunk.js": "/Fwiki/static/js/1.0fc07f72.chunk.js",
-  "static/js/1.0fc07f72.chunk.js.map": "/Fwiki/static/js/1.0fc07f72.chunk.js.map",
+  "main.css": "/Fwiki/static/css/main.5762953e.chunk.css",
+  "main.js": "/Fwiki/static/js/main.29d4c52e.chunk.js",
+  "main.js.map": "/Fwiki/static/js/main.29d4c52e.chunk.js.map",
+  "static/js/1.8c7b12d3.chunk.js": "/Fwiki/static/js/1.8c7b12d3.chunk.js",
+  "static/js/1.8c7b12d3.chunk.js.map": "/Fwiki/static/js/1.8c7b12d3.chunk.js.map",
   "runtime~main.js": "/Fwiki/static/js/runtime~main.169a8676.js",
   "runtime~main.js.map": "/Fwiki/static/js/runtime~main.169a8676.js.map",
   "static/media/LandingPage.css": "/Fwiki/static/media/wallpaper.8df0521a.jpg",
@@ -19,8 +19,8 @@
   "static/media/pickTrain.JPG": "/Fwiki/static/media/pickTrain.d5ccf0b1.JPG",
   "static/media/fastBooking.JPG": "/Fwiki/static/media/fastBooking.9d2abcf9.JPG",
   "static/media/Anca.jpg": "/Fwiki/static/media/Anca.36096781.jpg",
-  "static/css/main.efee2881.chunk.css.map": "/Fwiki/static/css/main.efee2881.chunk.css.map",
+  "static/css/main.5762953e.chunk.css.map": "/Fwiki/static/css/main.5762953e.chunk.css.map",
   "index.html": "/Fwiki/index.html",
-  "precache-manifest.1e49627f90196b22e9616b813627d804.js": "/Fwiki/precache-manifest.1e49627f90196b22e9616b813627d804.js",
+  "precache-manifest.ad64195151d36e189a74323df2ff841e.js": "/Fwiki/precache-manifest.ad64195151d36e189a74323df2ff841e.js",
   "service-worker.js": "/Fwiki/service-worker.js"
 }
