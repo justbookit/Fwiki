@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { browserHistory } from "react-router";
+import { hashHistory } from "react-router";
 import ReactGA from 'react-ga';
 
 export default class FikiHeader extends Component {
 
     handleClick() {
-        browserHistory.push({pathname: "/landing-page"});
+        hashHistory.push({pathname: "/landing-page"});
         ReactGA.ga('send', 'event', 'GetStarted', 'Click');
     }
     
