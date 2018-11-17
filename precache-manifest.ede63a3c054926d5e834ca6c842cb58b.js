@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/wallpaper.8df0521a.jpg"
   },
   {
-    "revision": "75968b8a5a28cd5a346cc8c828e8205a",
+    "revision": "2253003c9e9dd1d74e396d5171f3a18e",
     "url": "/Fwiki/index.html"
   }
 ];
