@@ -1,9 +1,9 @@
 {
   "main.css": "/Fwiki/static/css/main.53183bb5.chunk.css",
-  "main.js": "/Fwiki/static/js/main.4e097620.chunk.js",
-  "main.js.map": "/Fwiki/static/js/main.4e097620.chunk.js.map",
-  "static/js/1.371a943c.chunk.js": "/Fwiki/static/js/1.371a943c.chunk.js",
-  "static/js/1.371a943c.chunk.js.map": "/Fwiki/static/js/1.371a943c.chunk.js.map",
+  "main.js": "/Fwiki/static/js/main.0b6699bb.chunk.js",
+  "main.js.map": "/Fwiki/static/js/main.0b6699bb.chunk.js.map",
+  "static/js/1.e4db4c12.chunk.js": "/Fwiki/static/js/1.e4db4c12.chunk.js",
+  "static/js/1.e4db4c12.chunk.js.map": "/Fwiki/static/js/1.e4db4c12.chunk.js.map",
   "runtime~main.js": "/Fwiki/static/js/runtime~main.169a8676.js",
   "runtime~main.js.map": "/Fwiki/static/js/runtime~main.169a8676.js.map",
   "static/media/LandingPage.css": "/Fwiki/static/media/wallpaper.8df0521a.jpg",
@@ -21,6 +21,6 @@
   "static/media/Radu.jpg": "/Fwiki/static/media/Radu.bab1d424.jpg",
   "static/css/main.53183bb5.chunk.css.map": "/Fwiki/static/css/main.53183bb5.chunk.css.map",
   "index.html": "/Fwiki/index.html",
-  "precache-manifest.6f9c57017a6d0675b0dd618d3fd2d33b.js": "/Fwiki/precache-manifest.6f9c57017a6d0675b0dd618d3fd2d33b.js",
+  "precache-manifest.d9a7085d17f007a7c77470cc487e1ded.js": "/Fwiki/precache-manifest.d9a7085d17f007a7c77470cc487e1ded.js",
   "service-worker.js": "/Fwiki/service-worker.js"
 }
