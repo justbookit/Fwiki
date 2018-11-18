@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 import FikiHeader from "./FikiHeader";
 import FirstMilestone from "./FirstMilestone";
 import SecondMilestone from "./SecondMilestone";
-
+import ThirdMilestone from "./ThirdMilestone";
+import FourthMilestone from "./FourthMilestone";
+import FifthMilestone from "./FifthMilestone";
 
 import './App.css';
-import ThirdMilestone from "./ThirdMilestone";
-import {Redirect} from "react-router-dom";
 
 class Fwiki extends Component {
 
@@ -19,8 +19,6 @@ class Fwiki extends Component {
             selectedImage: null
         }
     }
-
-
 
     render() {
 
@@ -42,6 +40,8 @@ class Fwiki extends Component {
                 <FirstMilestone/>
                 <SecondMilestone/>
                 <ThirdMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
+                <FourthMilestone/>
+                <FifthMilestone/>
             </div>
         );
     }

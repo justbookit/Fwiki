@@ -3,7 +3,7 @@ import "./App.css";
 
 import register from "./wireframe/register.JPG";
 import login from "./wireframe/login.JPG";
-import pickTrain from "./wireframe/pickTrain.JPG";
+import pickTrain from "./wireframe/pickTrain.png";
 import fastBooking from "./wireframe/fastBooking.JPG";
 
 export default class ThirdMilestone extends Component {

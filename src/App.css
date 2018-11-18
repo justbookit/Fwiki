@@ -340,6 +340,76 @@ a {
   text-align: center;
 }
 
+.subsection-title {
+  border-bottom: 2px solid #ff694c;
+}
+
+.responses-container {
+  margin-bottom: 25px;
+}
+
+.student-1 {
+  color: #009688f5;
+  margin-right: 10px;
+}
+
+.student-2 {
+  color: #ff694c;
+  margin-right: 10px;
+}
+
+.student-3 {
+  color: #00bcd4;
+  margin-right: 10px;
+}
+
+.persona-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.persona-picture {
+  border-radius: 50%;
+  background: whitesmoke;
+}
+
+.persona-details-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.persona-first-container {
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25%;
+}
+
+.persona-second-container {
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.social-networks-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.screenshots-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .size-15 {
     font-size: 15px;
 }
