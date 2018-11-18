@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import persona from "./images/persona.png";
 
+import register from './usecases/InregistrareJustBookIt.png';
+import login from './usecases/LoginJustBookIt.png';
+import bookTicket from './usecases/RezervareJustBookIt.png';
+import useCases from './usecases/UseCaseJustBookIt.png';
+
+import './App.css';
+
 export default class FourthMilestone extends Component {
     render() {
         return (
@@ -138,7 +145,25 @@ export default class FourthMilestone extends Component {
                         </ul>
 
                         <div style={{marginTop: "20px"}}><label className="subsection-title"><b>USE CASES</b></label></div>
-                        <p>TODO</p>
+                        <div className="wireframes-container">
+                            {
+                                [
+                                    [register, "Register"],
+                                    [login, "Login"],
+                                    [bookTicket, "Book ticket"],
+                                    [useCases, "Use cases"]
+                                ].map((image) => {
+                                    return (
+                                        <div className="wireframe-image-cointainer" key={image[0]}>
+                                            <div className="transparent-layer">
+                                                <img className="wireframe-image" src={image[0]} onClick={() => this.props.enlargeImage(image[0])} alt="" style={{backgroundColor: "white"}}/>
+                                            </div>
+                                            <p className="imageLabel"><b>{image[1]}</b></p>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
 
                         <div style={{marginTop: "20px"}}><label className="subsection-title"><b>USER FLOWS</b></label></div>
                         <p>TODO</p>

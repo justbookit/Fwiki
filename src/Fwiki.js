@@ -32,7 +32,7 @@ class Fwiki extends Component {
                         <button className="closeEnlargedImage bold-text size-30" onClick={() => this.setState({enlargeImage: false})}>
                             <i className="far fa-times-circle"></i>
                         </button>
-                        <img src={this.state.selectedImage} className="enlargedImage" alt=""/>
+                        <img src={this.state.selectedImage} className="enlargedImage" alt="" style={{backgroundColor: "white"}}/>
                     </div>
                 }
 
@@ -40,7 +40,7 @@ class Fwiki extends Component {
                 <FirstMilestone/>
                 <SecondMilestone/>
                 <ThirdMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
-                <FourthMilestone/>
+                <FourthMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
                 <FifthMilestone/>
             </div>
         );
