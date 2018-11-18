@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import persona from "./images/persona.png";
+import userFlow from "./images/userFlow.png";
 
 import register from './usecases/InregistrareJustBookIt.png';
 import login from './usecases/LoginJustBookIt.png';
@@ -144,14 +145,17 @@ export default class FourthMilestone extends Component {
                             <li>As a user I want to be able to book the return journey so that I don’t have to make another booking request for it.</li>
                         </ul>
 
-                        <div style={{marginTop: "20px"}}><label className="subsection-title"><b>USE CASES</b></label></div>
-                        <div className="wireframes-container">
+                        <div style={{marginTop: "20px"}}><label className="subsection-title"><b>USE CASES & USER FLOWS</b></label></div>
+
+                        <div style={{textAlign: "center"}}><img style={{height: "381px"}} src={userFlow} alt=""/></div>
+
+                        <div className="wireframes-container" style={{marginBottom: "0px"}}>
                             {
                                 [
                                     [register, "Register"],
                                     [login, "Login"],
                                     [bookTicket, "Book ticket"],
-                                    [useCases, "Use cases"]
+                                    [useCases, "USE CASES"]
                                 ].map((image) => {
                                     return (
                                         <div className="wireframe-image-cointainer" key={image[0]}>
@@ -164,9 +168,7 @@ export default class FourthMilestone extends Component {
                                 })
                             }
                         </div>
-
-                        <div style={{marginTop: "20px"}}><label className="subsection-title"><b>USER FLOWS</b></label></div>
-                        <p>TODO</p>
+                        <p><b>NOTE: To open an image click on it!</b></p>
 
                     </div>
                 </div>
