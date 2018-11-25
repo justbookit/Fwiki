@@ -9,7 +9,7 @@ export default class SixthMilestone extends Component {
                 <div className="milestone-container size-35 white bold-text">Milestone 6</div>
 
                 <div className="gray-container size-16 white">
-                    <div className="section-title"><label className="size-30 bold-text">The volume of our target market (including the different sub-markets)</label></div>
+                    <div className="section-title" style={{width: "calc(100% - 330px)", margin: "auto"}}><label className="size-30 bold-text">The volume of our target market (including the different sub-markets)</label></div>
                     <div className="section-content gray">
                         <p>Because our main customers are students we will start estimating our market size from there.</p>
 
@@ -33,7 +33,7 @@ export default class SixthMilestone extends Component {
                 </div>
 
                 <div className="blue-container size-16 white">
-                    <div className="section-title" style={{width: "100%"}}><label className="size-30 bold-text">The approximate number of players / competitors in our targeted market and the presentation of the competition</label></div>
+                    <div className="section-title" style={{width: "calc(100% - 330px)", margin: "auto"}}><label className="size-30 bold-text">The approximate number of players / competitors in our targeted market and the presentation of the competition</label></div>
 
                     <div className="section-content white">
 
@@ -50,7 +50,7 @@ export default class SixthMilestone extends Component {
                 </div>
 
                 <div className="gray-container size-16 white">
-                    <div className="section-title"><label className="size-30 bold-text">Estimation for our potential market share in year 1, 2, 3, 4 and 5 after launch</label></div>
+                    <div className="section-title" style={{width: "calc(100% - 330px)", margin: "auto"}}><label className="size-30 bold-text">Estimation for our potential market share in year 1, 2, 3, 4 and 5 after launch</label></div>
                     <div className="section-content gray">
 
                         <p><b>Year 1:</b> we expect that half of the students that are frequently travelling by train to be our customers, so our market share will be around 25%</p>
@@ -64,7 +64,7 @@ export default class SixthMilestone extends Component {
                 </div>
 
                 <div className="blue-container size-16 white">
-                    <div className="section-title"><label className="size-30 bold-text">The total market value and the value of our market share for years 1, 2, 3, 4, 5</label></div>
+                    <div className="section-title" style={{width: "calc(100% - 330px)", margin: "auto"}}><label className="size-30 bold-text">The total market value and the value of our market share for years 1, 2, 3, 4, 5</label></div>
 
                     <div className="section-content white">
 
