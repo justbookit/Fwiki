@@ -410,6 +410,31 @@ a {
   margin-bottom: 30px;
 }
 
+.milestone-menu {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-label {
+  color: black;
+  margin: auto;
+}
+
+.milestone-menu-button {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #ff694c;
+  outline: none;
+  margin: auto;
+  display: block;
+}
+
 .size-15 {
     font-size: 15px;
 }

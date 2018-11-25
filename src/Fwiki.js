@@ -8,6 +8,8 @@ import FourthMilestone from "./FourthMilestone";
 import FifthMilestone from "./FifthMilestone";
 
 import './App.css';
+import SixthMilestone from "./SixthMilestone";
+import Team from "./Team";
 
 class Fwiki extends Component {
 
@@ -16,7 +18,8 @@ class Fwiki extends Component {
 
         this.state = {
             enlargeImage: false,
-            selectedImage: null
+            selectedImage: null,
+            selectedMilestone: 1
         }
     }
 
@@ -37,11 +40,44 @@ class Fwiki extends Component {
                 }
 
                 <FikiHeader redirectToLandingPage={() => this.setState({redirect: true})}/>
-                <FirstMilestone/>
-                <SecondMilestone/>
-                <ThirdMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
-                <FourthMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
-                <FifthMilestone/>
+                <Team/>
+
+                <div className="milestone-menu">
+
+                    <p className="menu-label size-30 bold-text">Milestones:</p>
+
+                    {
+                        [1, 2, 3, 4, 5, 6].map(i => {
+                            return <button className="milestone-menu-button size-20 bold-text" onClick={() => this.setState({selectedMilestone: i})} key={i}>{i}</button>
+                        })
+                    }
+                </div>
+
+                {
+                    this.state.selectedMilestone === 1 && <FirstMilestone/>
+                }
+
+                {
+                    this.state.selectedMilestone === 2 && <SecondMilestone/>
+                }
+
+                {
+                    this.state.selectedMilestone === 3 && <ThirdMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
+
+                }
+
+                {
+                    this.state.selectedMilestone === 4 && <FourthMilestone enlargeImage={(image) => this.setState({enlargeImage: true, selectedImage: image})}/>
+                }
+
+                {
+                    this.state.selectedMilestone === 5 && <FifthMilestone/>
+                }
+
+                {
+                    this.state.selectedMilestone === 6 && <SixthMilestone/>
+                }
+
             </div>
         );
     }
