@@ -25,7 +25,7 @@ export default class SeventhMilestone extends Component {
                              The main goal of our prototype is to see the impact of it, to identify if the users will be
                              willing to use the services offered by our application. Therefore, we decided to create for
                              the beginning a MVP which offers a minimum number of features. All these features will be
-                             describe in the next section.
+                             described in the next section.
                         </p>
 
                         <div className="section-delimiter"></div>
@@ -45,14 +45,14 @@ export default class SeventhMilestone extends Component {
                         </p>
 
                         <p>
-                            The feedback received in the previous stages can be found here:
+                            The feedback received in the previous stages can be found
                             <a className="link-container" href="https://docs.google.com/spreadsheets/d/1NOvkivkK5_o1y0PM-vbE3euwSA8YsIbZSKqzfnBTvVA/edit?usp=sharing">
-                                feedback
+                                here
                             </a>
                         </p>
 
                         <p>
-                            To understand better the whole flow we attached some pictures and we described each step in
+                            To better understand the whole flow we attached some pictures and we described each step in
                             the next section:
                         </p>
 
@@ -70,7 +70,7 @@ export default class SeventhMilestone extends Component {
                         <p>
                             <b>Step 2:</b> After the user fills all the fields of the booking form and submits it, he/she
                             will be redirected to the next page which will list all the available trips for the day/s he/she
-                            chose. To finish the booking process the user should choose the desire train and he should press
+                            chose. To finish the booking process the user should choose the desired train and he should press
                             on the buy button.
                         </p>
 
@@ -86,7 +86,7 @@ export default class SeventhMilestone extends Component {
 
                         <p>
                             In this moment the application contains a minimum number of routes, because our main goal is
-                            to create a working application which simply showcase the main functionality of our final app,
+                            to create a working application which simply showcases the main functionality of our final app,
                             which is fast ticket booking. Therefore, a fully populated database, with all the possible
                             routes available in our country was absolutely not necessary, because the users will surely
                             be able to comprehend the nature of our prototype with only a few predefined cities.
@@ -111,14 +111,14 @@ export default class SeventhMilestone extends Component {
 
                         <p>
                             We planned to develop these features in the next step together with some improvements, after
-                            we will receive some new feedback from potential users after they will test this first version
+                            we will receive some new feedback from potential users when they test this first version
                             of our application. So, we developed a simple application with a minimal functionality.
                             We worked on it for about 2 weeks.
                         </p>
 
                         <p>
-                            To easily share our application we deployed it. The demo is available here:
-                            <a className="link-container" href="http://172.104.225.95:8000/form/">demo</a>(To test it
+                            To easily share our application we deployed it. The demo is available
+                            <a className="link-container" href="http://172.104.225.95:8000/form/">here</a>(To test it
                             you can use the following route: Bucuresti - Constanta)
                         </p>
                     </div>

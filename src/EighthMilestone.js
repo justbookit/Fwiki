@@ -18,7 +18,7 @@ export default class EighthMilestone extends Component {
 
                     <div className="section-content white">
                         <p>
-                            After we developed a working prototype we shared it to number of 17 students (our main customer
+                            After we developed a working prototype we shared it to a number of 17 students (our main customer
                             segment). We asked them to play around with our booking system and encouraged them to fill a
                             feedback afterwards and give us their most sincere feedback, in order to allow us to fix any
                             issues detected by them, to identify some new useful features or some improvements that are
@@ -91,7 +91,7 @@ export default class EighthMilestone extends Component {
 
                         <p>
                             All the results can be checked
-                            <a className="link-container" href="https://goo.gl/forms/0qpzuozh1tGOrBJ03">
+                            <a className="link-container" href="https://docs.google.com/forms/d/1rWL77SPlrIHjc9ImxiX_a7EqSP1qaG_DXi5yN7pZwM0/edit?fbclid=IwAR2qG6koypIokqrsNkYWQ1GQV40vf2z9rnCehAi_OLPncJAYrMzyHsajOd4#responses">
                                 here
                             </a>
                         </p>

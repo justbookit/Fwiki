@@ -411,7 +411,7 @@ a {
 }
 
 .milestone-menu {
-  width: 700px;
+  width: 650px;
   margin: auto;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -443,7 +443,7 @@ a {
 }
 
 .section-delimiter {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 100px;
