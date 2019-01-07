@@ -411,7 +411,7 @@ a {
 }
 
 .milestone-menu {
-  width: 500px;
+  width: 700px;
   margin: auto;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -431,8 +431,31 @@ a {
   color: white;
   background-color: #ff694c;
   outline: none;
+  border: none;
+  border-radius: 10px;
   margin: auto;
   display: block;
+  cursor: pointer;
+}
+
+.milestone-menu-button:hover {
+  background-color: #FF5722;
+}
+
+.section-delimiter {
+  border-bottom: 2px solid #ffffff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.link-container {
+    color: orange;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: underline;
 }
 
 .size-15 {

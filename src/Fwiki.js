@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 
 import FikiHeader from "./FikiHeader";
+import Team from "./Team";
+
 import FirstMilestone from "./FirstMilestone";
 import SecondMilestone from "./SecondMilestone";
 import ThirdMilestone from "./ThirdMilestone";
 import FourthMilestone from "./FourthMilestone";
 import FifthMilestone from "./FifthMilestone";
+import SixthMilestone from "./SixthMilestone";
+import SeventhMilestone from "./SeventhMilestone";
+import EighthMilestone from "./EighthMilestone";
 
 import './App.css';
-import SixthMilestone from "./SixthMilestone";
-import Team from "./Team";
+
 
 class Fwiki extends Component {
 
@@ -47,7 +51,7 @@ class Fwiki extends Component {
                     <p className="menu-label size-30 bold-text">Milestones:</p>
 
                     {
-                        [1, 2, 3, 4, 5, 6].map(i => {
+                        [1, 2, 3, 4, 5, 6, 7, 8].map(i => {
                             return <button className="milestone-menu-button size-20 bold-text" onClick={() => this.setState({selectedMilestone: i})} key={i}>{i}</button>
                         })
                     }
@@ -78,6 +82,13 @@ class Fwiki extends Component {
                     this.state.selectedMilestone === 6 && <SixthMilestone/>
                 }
 
+                {
+                    this.state.selectedMilestone === 7 && <SeventhMilestone/>
+                }
+
+                {
+                    this.state.selectedMilestone === 8 && <EighthMilestone/>
+                }
             </div>
         );
     }
