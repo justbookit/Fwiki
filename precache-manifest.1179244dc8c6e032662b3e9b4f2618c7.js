@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/InregistrareJustBookIt.6318c296.png"
   },
   {
-    "revision": "57f04cd6d8db0dd9bfc1",
-    "url": "/Fwiki/static/css/main.5b045794.chunk.css"
+    "revision": "080d587664e0fc114572",
+    "url": "/Fwiki/static/css/main.64318156.chunk.css"
   },
   {
     "revision": "5af279c1cae837e32bb5",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/userFlow.aaeba266.png"
   },
   {
-    "revision": "57f04cd6d8db0dd9bfc1",
-    "url": "/Fwiki/static/js/main.57f04cd6.chunk.js"
+    "revision": "080d587664e0fc114572",
+    "url": "/Fwiki/static/js/main.080d5876.chunk.js"
   },
   {
     "revision": "b65f093ee37e7ae2ee5e349e9907a1a6",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/piechart.22d94375.png"
   },
   {
-    "revision": "65f94c05f29181eb1b32f7267db614ea",
+    "revision": "5dcff3b619cb085e3dbe3f39da163990",
     "url": "/Fwiki/index.html"
   }
 ];
