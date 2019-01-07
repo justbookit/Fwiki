@@ -1,19 +1,39 @@
 self.__precacheManifest = [
   {
-    "revision": "055fe19511124b9021da939d3660c3b1",
-    "url": "/Fwiki/static/media/RezervareJustBookIt.055fe195.png"
+    "revision": "6318c296ae1d3031dac9f51bfdb13def",
+    "url": "/Fwiki/static/media/InregistrareJustBookIt.6318c296.png"
   },
   {
-    "revision": "1fc365db2f1a92eebd64",
-    "url": "/Fwiki/static/css/main.5b46390b.chunk.css"
+    "revision": "57f04cd6d8db0dd9bfc1",
+    "url": "/Fwiki/static/css/main.5b045794.chunk.css"
   },
   {
-    "revision": "115b3f10a52d55e2e766",
-    "url": "/Fwiki/static/js/1.115b3f10.chunk.js"
+    "revision": "5af279c1cae837e32bb5",
+    "url": "/Fwiki/static/js/1.5af279c1.chunk.js"
   },
   {
     "revision": "169a867670516563185c",
     "url": "/Fwiki/static/js/runtime~main.169a8676.js"
+  },
+  {
+    "revision": "360967812ccae14ba70b971f74784aa8",
+    "url": "/Fwiki/static/media/Anca.36096781.jpg"
+  },
+  {
+    "revision": "bab1d424b4bd70924dc63234cb0ca940",
+    "url": "/Fwiki/static/media/Radu.bab1d424.jpg"
+  },
+  {
+    "revision": "8896f9bb6a5a0506573fef60b5b4af6b",
+    "url": "/Fwiki/static/media/Catalin.8896f9bb.jpg"
+  },
+  {
+    "revision": "7852f67de128e1d702a4eff6d68c4c27",
+    "url": "/Fwiki/static/media/Daniel.7852f67d.jpg"
+  },
+  {
+    "revision": "8e1ac8f3f3903519408511a28331d6e1",
+    "url": "/Fwiki/static/media/Paul.8e1ac8f3.jpg"
   },
   {
     "revision": "abdcf4857c18ad210e7ceb7eb82d6fe0",
@@ -48,16 +68,16 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/userFlow.aaeba266.png"
   },
   {
-    "revision": "6318c296ae1d3031dac9f51bfdb13def",
-    "url": "/Fwiki/static/media/InregistrareJustBookIt.6318c296.png"
+    "revision": "57f04cd6d8db0dd9bfc1",
+    "url": "/Fwiki/static/js/main.57f04cd6.chunk.js"
   },
   {
     "revision": "b65f093ee37e7ae2ee5e349e9907a1a6",
     "url": "/Fwiki/static/media/LoginJustBookIt.b65f093e.png"
   },
   {
-    "revision": "1fc365db2f1a92eebd64",
-    "url": "/Fwiki/static/js/main.1fc365db.chunk.js"
+    "revision": "055fe19511124b9021da939d3660c3b1",
+    "url": "/Fwiki/static/media/RezervareJustBookIt.055fe195.png"
   },
   {
     "revision": "7ee509469463a2048a53d2f8e2382784",
@@ -88,27 +108,35 @@ self.__precacheManifest = [
     "url": "/Fwiki/static/media/hitmap.f34241ff.png"
   },
   {
-    "revision": "360967812ccae14ba70b971f74784aa8",
-    "url": "/Fwiki/static/media/Anca.36096781.jpg"
+    "revision": "ec9d45e540ca6526a37da74de66dbe07",
+    "url": "/Fwiki/static/media/app1.ec9d45e5.png"
   },
   {
-    "revision": "bab1d424b4bd70924dc63234cb0ca940",
-    "url": "/Fwiki/static/media/Radu.bab1d424.jpg"
+    "revision": "b269618fc465157bbe94d8746bc09b39",
+    "url": "/Fwiki/static/media/app2.b269618f.png"
   },
   {
-    "revision": "8896f9bb6a5a0506573fef60b5b4af6b",
-    "url": "/Fwiki/static/media/Catalin.8896f9bb.jpg"
+    "revision": "064ee2c270e021fbc8e30833eb529438",
+    "url": "/Fwiki/static/media/app3.064ee2c2.png"
   },
   {
-    "revision": "7852f67de128e1d702a4eff6d68c4c27",
-    "url": "/Fwiki/static/media/Daniel.7852f67d.jpg"
+    "revision": "73c59c9f6f2c7638c201ee0838d3501b",
+    "url": "/Fwiki/static/media/feedback1.73c59c9f.png"
   },
   {
-    "revision": "8e1ac8f3f3903519408511a28331d6e1",
-    "url": "/Fwiki/static/media/Paul.8e1ac8f3.jpg"
+    "revision": "a8b11799313cacc2b6681d1bd074219a",
+    "url": "/Fwiki/static/media/feedback2.a8b11799.png"
   },
   {
-    "revision": "d67bf8374a4f6d80debb9bb77a99d91c",
+    "revision": "506a587ce4268df3f8a7c04e98600778",
+    "url": "/Fwiki/static/media/feedback3.506a587c.png"
+  },
+  {
+    "revision": "22d94375b3a24d60a340089758b518f3",
+    "url": "/Fwiki/static/media/piechart.22d94375.png"
+  },
+  {
+    "revision": "65f94c05f29181eb1b32f7267db614ea",
     "url": "/Fwiki/index.html"
   }
 ];
