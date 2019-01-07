@@ -91,7 +91,7 @@ export default class EighthMilestone extends Component {
 
                         <p>
                             All the results can be checked
-                            <a className="link-container" href="https://docs.google.com/forms/d/1rWL77SPlrIHjc9ImxiX_a7EqSP1qaG_DXi5yN7pZwM0/edit?fbclid=IwAR2qG6koypIokqrsNkYWQ1GQV40vf2z9rnCehAi_OLPncJAYrMzyHsajOd4#responses">
+                            <a className="link-container" href="https://docs.google.com/spreadsheets/d/1mckPSPx0_8Q9bu-bQCXUuRVVyRoN6NqPxnH4637q5P4/edit?fbclid=IwAR0Huth6UexMhcpzfPYleglDPjFpZdrqeytdICHXKf7bg4jkVGq9SovOLwU#gid=601492384">
                                 here
                             </a>
                         </p>
