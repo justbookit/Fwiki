@@ -188,7 +188,7 @@ export default class FirstMilestone extends Component {
 
                 <div className="gray-container size-16 gray">
                     <div className="section-title"><label className="size-30 bold-text white">Cost structure</label></div>
-                    <div className="section-content costs-container">
+                    <div className="section-content costs-container" style={{display: "block"}}>
                         <p>In the following section we estimated how much we will spend in the first year. The costs structure defined below contains the production costs and the marketing costs. Because we want to attract both the clients, the railway companies, and the students, which represent our main customer segment for the solution we propose, we need to invest in the marketing: advertising and promotion campaigns.  Also, we need an office space and equipaments like laptops, database servers to implement the our solution.</p>
                         <p>Equipament: $10.000</p>
                         <p>Incorporation fees: $1.000</p>

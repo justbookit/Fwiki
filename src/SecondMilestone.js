@@ -44,10 +44,6 @@ export default class SecondMilestone extends Component {
 
                         <p>We focused on students who travel by train and we approached most of them via online questionnaires. We asked people who were in online groups with a lot of students to distribute our questionnaire. </p>
 
-                        <div style={{textAlign: "center", marginBottom: "30px"}}>
-                            <img style={{height: "410px"}} src={wapp} alt=""/>
-                        </div>
-
                         <p>We asked around 100 people about any existing problems about train’s ticket commercialisation and more
                         than 90% said that the actual system costs them a lot of time, because they have to go to the special points
                             of buying tickets. </p>
