@@ -188,19 +188,19 @@ export default class FirstMilestone extends Component {
 
                 <div className="gray-container size-16 gray">
                     <div className="section-title"><label className="size-30 bold-text white">Cost structure</label></div>
-                    <div className="section-content costs-container" style={{display: "block"}}>
+                    <div className="section-content costs-container" style={{flexDirection: "column"}}>
                         <p>In the following section we estimated how much we will spend in the first year. The costs structure defined below contains the production costs and the marketing costs. Because we want to attract both the clients, the railway companies, and the students, which represent our main customer segment for the solution we propose, we need to invest in the marketing: advertising and promotion campaigns.  Also, we need an office space and equipaments like laptops, database servers to implement the our solution.</p>
-                        <p>Equipament: $10.000</p>
-                        <p>Incorporation fees: $1.000</p>
-                        <p>Marketing: $10.000</p>
-                        <p>Office furniture: $2.500</p>
-                        <p>Utilities: $300/month</p>
-                        <p>Office space: $750/month</p>
-                        <p>Website: $100/month</p>
-                        <p>Salaries: $6.250/month</p>
-                        <p>Insurance: $1.200/year</p>
-                        <p><b>Founding costs: $23.500</b></p>
-                        <p><b>TOTAL: $90.000/year</b></p>
+                        <div style={{display: "flex"}}><p>Equipament: $10.000</p>
+                            <p>Incorporation fees: $1.000</p>
+                            <p>Marketing: $10.000</p>
+                            <p>Office furniture: $2.500</p>
+                            <p>Utilities: $300/month</p>
+                            <p>Office space: $750/month</p>
+                            <p>Website: $100/month</p>
+                            <p>Salaries: $6.250/month</p>
+                            <p>Insurance: $1.200/year</p>
+                            <p><b>Founding costs: $23.500</b></p>
+                            <p><b>TOTAL: $90.000/year</b></p></div>
                     </div>
                 </div>
 
