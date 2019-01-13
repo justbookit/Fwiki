@@ -189,6 +189,7 @@ export default class FirstMilestone extends Component {
                 <div className="gray-container size-16 gray">
                     <div className="section-title"><label className="size-30 bold-text white">Cost structure</label></div>
                     <div className="section-content costs-container">
+                        <p>In the following section we estimated how much we will spend in the first year. The costs structure defined below contains the production costs and the marketing costs. Because we want to attract both the clients, the railway companies, and the students, which represent our main customer segment for the solution we propose, we need to invest in the marketing: advertising and promotion campaigns.  Also, we need an office space and equipaments like laptops, database servers to implement the our solution.</p>
                         <p>Equipament: $10.000</p>
                         <p>Incorporation fees: $1.000</p>
                         <p>Marketing: $10.000</p>
@@ -215,6 +216,8 @@ export default class FirstMilestone extends Component {
                                 but from the actual ticket price, the one before the discount. The same logic applies for
                                 all types of discounts.
                                 </p>
+                                <p>We were thinking at a percentage between 0.5 and 1% of a value of a ticket and we would like that this will be supported by the companies. If they don’t accept we can add this tax on the online purchases for the travelers and our platform would follow the example of applications like FoodPanda. It is true that even adds on the platform can be another way of income and would provide venues even though someone accesses our platform and doesn’t buy a ticket.</p>
+                                <p>Picturing a scenario, in a wagoon there is a limit of around 100 seats and a full ticket from Bucuresti to Focsani costs around 52 lei. If we imagine that 25% of those people used our platform, we would get 13 lei per wagon. This train circulates with at least 4 wagons so we would get 52 lei per train. This route is used by 13 trains a day so our venues from this route would be 676 lei per day or 20000 lei per month.</p>
                             </div>
                         </div>
                     </div>

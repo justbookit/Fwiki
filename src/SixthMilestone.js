@@ -38,13 +38,17 @@ export default class SixthMilestone extends Component {
                     <div className="section-content white">
 
                         <p>We identified 3 major platforms for buying online train tickets: CFR Calatori, Astra Trans Carpatic and Softrans.</p>
-                        <p>The most important competitor is CFR Calatori because it’s a state-owned company and has the most customers.
-                            CFR has transported 54,3 millions of passengers in 2017 and it’s the most favorite solution by people because it has routes all over the country.</p>
+                        <p>The most important competitor is CFR Calatori because it’s a state-owned company and has the most customers. CFR has transported 54,3 millions of passengers in 2017 and it’s the most favorite solution by people because it has routes all over the country. In the first 7 months of 2017, CFR reported a profit of 64 millions LEI. In the same period of time, CFR generated a turnover(cifra de afaceri?) of 931.8 million LEI and venues of 499 million LEI, while in the first semester of 2016 they generate a turnover of 816.9 million LEI and venues with a value of 430.6 million LEI. They are one of the oldest railway operators, with more than 20 years of activity and they have reported 12724 employees in 2017.</p>
+
+
 
                         <p>Astra Trans Carpatic it’s a private railway company established in 2014.
-                            It has only a couple of routes and the same as CFR Calatori there is no option for buying tickets with a student discount.
-                            Softrans it’s maybe the most known private company because it has some popular routes.
-                            Although private companies have better features and small prices than CFR, they don’t cover as much routes as CFR, so the number of customers is significantly smaller.</p>
+                            It has only a couple of routes and the same as CFR Calatori there is no option for buying tickets with a student discount. They are still new on the market, doing a lot of investitions and having a reported loss of 12 million LEI in 2017, while their turnover was 1888180. Their tickets are cheaper than CFR’s and they are trying to use even non-electric railroads. </p>
+
+
+                        <p>Softrans it’s maybe the most known private company because it has some popular routes. Although private companies have better features and small prices than CFR, they don’t cover as much routes as CFR, so the number of customers is significantly smaller. Even so, in 2017, Softrans generated a turnover of 67 million LEI and a profit of 3.6 million LEI. </p>
+
+                        <p>It is important to mention that all the companies presented here don’t get venues only from tickets. For example, CFR owns the railroads and rent them to other railway companies, while Softrans and Astra Trans Carpatic started by building parts of trains and later they entered on public transport business.</p>
 
                     </div>
                 </div>

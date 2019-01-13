@@ -3,7 +3,7 @@ import Facebook from "./images/facebook.png";
 import Linkedin from "./images/linkedin.png";
 import FacebookPost1 from "./images/facebook1.jpg";
 import FacebookPost2 from "./images/facebook2.jpg";
-import LinkedInPost from "./images/linkedIn1.png";
+import LinkedInPost from "./images/linkedin.JPG";
 import VisitorsChart from "./images/visitors.png";
 import HitMap from "./images/hitmap.png";
 
@@ -51,7 +51,7 @@ export default class FifthMilestone extends Component {
                             </div>
 
                             <p style={{textAlign: "center"}}>
-                                On <b>LinkedIn</b>, one of our colleague posted on his feed and he reached 35 views.
+                                On <b>LinkedIn</b>, one of our colleague posted on his feed and he reached 174 views.
                                 (<b>https://www.linkedin.com/feed/update/urn:li:activity:6469637416591327232</b>)
                             </p>
                             
@@ -91,6 +91,8 @@ export default class FifthMilestone extends Component {
                         of their time on our page and where they clicked. Analyzing this data, we observed that 87 clicks were
                         recorded and the most of the clicks (22,99%) were on “Get Started” button. This means that people are interested
                         in our application and they can’t wait to get started.</p>
+
+                        <p style={{textAlign: "center"}}>So far we have accomplished to convince 17 people to subscribe to our newsletters.</p>
                     </div>
 
                 </div>
